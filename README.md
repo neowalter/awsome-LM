@@ -3,6 +3,9 @@
 weekly update latest large model paired with paper(if existed)
 
 #LLM
+<div>
+<img src="https://img-blog.csdnimg.cn/img_convert/33bda5f420f076384c3013ddd7bd70b6.png">
+</div>
 
 - [OpenAI GPT4](https://openai.com/research/gpt-4),the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.
 [paper](https://arxiv.org/abs/2303.08774)
@@ -19,20 +22,7 @@ weekly update latest large model paired with paper(if existed)
  - [ChatGLM](https://chatglm.cn/blog), a bilingual (English and Chinese) pre-trained language model with 130 billion parameters. It is an attempt to open-source a 100B-scale model at least as good as GPT-3 (davinci) and unveil how models of such a scale can be successfully pre-trained. 
 [paper](https://openreview.net/pdf?id=-Aw0rrrPUF)
 
-is developed underthe MindSpore2and trained on a cluster of 2048 Ascend 910 AI processors3. The training parallelismstrategy is implemented based on MindSpore Auto-parallel, which composes five parallelism dimen-sions to scale the training task to 2048 processors efficiently, including data parallelism, op-levelmodel parallelism, pipeline model parallelism, optimizer model parallelism and rematerialization.
-
-
-
  - [鹏程.盘古](https://openi.pcl.ac.cn/PCL-Platform.Intelligence/PanGu-Alpha), Alpaca 7B, a model fine-tuned from the LLaMA 7B model on 52K instruction-following demonstrations. On our preliminary evaluation of single-turn instruction following, Alpaca behaves qualitatively similarly to OpenAI’s text-davinci-003, while being surprisingly small and easy/cheap to reproduce (<600$). 
-[paper](https://arxiv.org/abs/2212.10560)
-
-
-
- - [Dolly 2.0](https://crfm.stanford.edu/alpaca/), Alpaca 7B, a model fine-tuned from the LLaMA 7B model on 52K instruction-following demonstrations. On our preliminary evaluation of single-turn instruction following, Alpaca behaves qualitatively similarly to OpenAI’s text-davinci-003, while being surprisingly small and easy/cheap to reproduce (<600$). 
-[paper](https://arxiv.org/abs/2212.10560)
-
-
- - [Dolly 2.0](https://crfm.stanford.edu/alpaca/), Alpaca 7B, a model fine-tuned from the LLaMA 7B model on 52K instruction-following demonstrations. On our preliminary evaluation of single-turn instruction following, Alpaca behaves qualitatively similarly to OpenAI’s text-davinci-003, while being surprisingly small and easy/cheap to reproduce (<600$). 
 [paper](https://arxiv.org/abs/2212.10560)
 
 - [LaMDA-Language Model for Dialogue Applications](https://blog.google/technology/ai/lamda/), Google's LLM
